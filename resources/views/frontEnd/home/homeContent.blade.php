@@ -86,7 +86,7 @@ $(window).load(function () {
                                 <div class="item-info-product ">
                                     <h4><a href=" {{ url('/product-details/'.$publishedProduct->id) }}">{{ $publishedProduct->productName }}</a></h4>
                                     <div class="info-product-price">
-                                        <span class="item_price">BDT {{ $publishedProduct->productPrice }} </span>
+                                        <span class="item_price">BDT. {{ $publishedProduct->productPrice }} </span>
                                     </div>
                                     <a href="{{ url('/product-details/'.$publishedProduct->id) }}" class="item_add single-item hvr-outline-out button2">Add to cart</a>
                                 </div>
